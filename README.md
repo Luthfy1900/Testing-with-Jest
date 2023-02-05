@@ -19,7 +19,7 @@ We will use Jest to do some unit testing. Few things are needed here:
 ```npm init -y```
   * This ```-y``` command is useful for automatically answering 'yes' to all questions the ```initi``` command will ask during installation.
 * A new file will appear in the folder. This file helps keep track of node modules a project depends on.
-* Since we are testing in this project we want to install Jest locally in this project, so we will use this code:  
+* Since we are testing we want to install Jest locally in this project, so we will use this code:  
 ```npm install --save--dev jest```
 * This will update the ```package.json``` file with Jest in it.
 * Now go into the ```package.json``` file and you will see ```"test": "echo \"Error: no test specified\" && exit 1"```. We need to replace this with:  
