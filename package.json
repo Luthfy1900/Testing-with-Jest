@@ -2,7 +2,7 @@
   "name": "testing-with-jest",
   "version": "1.0.0",
   "description": "",
-  "main": "Assingment.js",
+  "main": "Multiply.js",
   "scripts": {
     "test": "jest"
   },
