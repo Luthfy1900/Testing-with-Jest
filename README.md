@@ -22,5 +22,12 @@ We will use Jest to do some unit testing. Few things are needed here:
 * Since we are testing in this project we want to install Jest locally in this project, so we will use this code:  
 ```npm install --save--dev jest```
 * This will update the ```package.json``` file with Jest in it.
-* Now go into the ```package.json``` file and you will see ```"test": echo \"Error: no test specified\" && exit 1"```. We need to replace this with:  
-```"test: jest"```
+* Now go into the ```package.json``` file and you will see ```"test": "echo \"Error: no test specified\" && exit 1"```. We need to replace this with:  
+```"test": "jest"```.
+ * This indicates that we want to use Jest for our testing.
+* Now, let's run Jest:  
+```npm run test```
+* Now set up our testing file. It should end with:  
+```'File name'.test.js```
+* Now we can go look at the files I have and explore how testing is done.
+
