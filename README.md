@@ -27,7 +27,7 @@ We will use Jest to do some unit testing. Few things are needed here:
  * This indicates that we want to use Jest for our testing.
 * Now, let's run Jest:  
 ```npm run test```
-* Now set up our testing file. It should end with:  
-```'File name'.test.js```
+* Now set up your testing file. It should end with:  
+```File name.test.js```
 * Now we can go look at the files I have and explore how testing is done.
 
