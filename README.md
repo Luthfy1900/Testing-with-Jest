@@ -5,7 +5,7 @@ We will use Jest to do some unit testing. Few things are needed here:
 * VS Code
 
 # Instructions
-* Create a folder with any file name you choose but make sure it ends with '.js' to let VS Code know we are going to use JavaScript. This file is where we will write our program and will be linked to another specific file used for testing that program. So if our file name is ```hello.js``` where we write our program, this file will be linked to another file called ```testing file.test.js```, and this file we will test our ```hello.js``` file.
+* Create a folder with any file name you choose but make sure it ends with '.js' to let VS Code know we are going to use JavaScript. This file is where we will write our program and will be linked to another specific file used for testing that program. So if our file name is ```hello.js``` where we write our program, this file will be linked to another file called ```testing file.test.js```, where the testing will be done.
 * Now open a new terminal and check to see if you have Node.js installed. Use this command:  
 ```node --version```
 * If Node.js is not installed then got this website https://nodejs.org/en/download/ and choose the recommended options. I personally chose version 19.
