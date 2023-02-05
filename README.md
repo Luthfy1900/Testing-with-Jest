@@ -10,11 +10,11 @@ We will use Jest to do some unit testing. Few things are needed here:
 ```node --version```
 * If Node.js is not installed then got this website https://nodejs.org/en/download/ and choose the recommended options. I personally chose version 19.
 * After installing it, go back to VS code and verify by using the above command.
-* Now check for ```npm``` by using this command:
+* Now check for ```npm``` by using this command:  
 ```npm --version```
 * By installing Node.js, npm should be installed.
-* Now check to see if Jest is installed by using this command:
+* Now check to see if Jest is installed by using this command:  
 ``` jest --version```
-* If not installed we will use npm to install it since Jest needs node.js to run and npm is a way to install node modules. Use this to add a package.json file:
+* If not installed we will use npm to install it since Jest needs node.js to run and npm is a way to install node modules. Use this to add a package.json file:  
 ```npm init -y```
-  * This ```-y``` is useful for automatically answering 'yes' to all questions the ```initi``` will ask.
+  * This ```-y``` command is useful for automatically answering 'yes' to all questions the ```initi``` command will ask during installation.
