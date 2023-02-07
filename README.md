@@ -18,7 +18,7 @@ We will use Jest to do some unit testing. Few things are needed here:
 ``` jest --version```
 * If not installed we will use npm to start installing it since Jest needs node.js to run and npm is a way to install node modules. Use this to add a ```package.json``` file:  
 ```npm init -y```
-  * This ```-y``` command is useful for automatically answering 'yes' to all questions the ```initi``` command will ask during installation.
+  * This ```-y``` command is useful for automatically answering 'yes' to all questions the ```init``` command will ask during installation.
 * A new file will appear in the folder. This file helps keep track of node modules a project depends on.
 * Since we are testing we want to install Jest locally in this project, so we will use this code:  
 ```npm install --save--dev jest```
